@@ -5,8 +5,9 @@ import os
 st.write("Current directory:", os.getcwd())
 st.write("Files in dir:", os.listdir())
 
-
 st.set_page_config(page_title="🎀 Sabbyyy's Birthday Surprise", layout="centered")
+st.write("Files available:", os.listdir())
+
 
 # 🎵 Background music
 def play_music(file_path):
