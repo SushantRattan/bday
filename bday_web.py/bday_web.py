@@ -1,6 +1,10 @@
 import streamlit as st
 from PIL import Image
 import base64
+import os
+st.write("Current directory:", os.getcwd())
+st.write("Files in dir:", os.listdir())
+
 
 st.set_page_config(page_title="🎀 Sabbyyy's Birthday Surprise", layout="centered")
 
